@@ -29,11 +29,11 @@
                                     <action selector="PlayPauseAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="47c-70-tFN"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Azf-79-Nk4">
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Azf-79-Nk4">
                                 <rect key="frame" x="21" y="445" width="333" height="22"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igi-zw-xXh">
-                                        <rect key="frame" x="0.0" y="1.5" width="50" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="1" width="50" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="xPB-od-Taw"/>
                                         </constraints>
@@ -42,10 +42,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u8j-J8-3EQ">
-                                        <rect key="frame" x="55" y="20" width="223" height="2"/>
+                                        <rect key="frame" x="55" y="10" width="223" height="2"/>
                                     </progressView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuT-r4-cH7">
-                                        <rect key="frame" x="283" y="1.5" width="50" height="20.5"/>
+                                        <rect key="frame" x="283" y="1" width="50" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="ktn-rn-iP9"/>
                                         </constraints>
