@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ParameterVocabularies</key>
+	<array>
+		<dict>
+			<key>ParameterNames</key>
+			<array>
+				<string>INStartWorkoutIntent.workoutName</string>
+			</array>
+			<key>ParameterVocabulary</key>
+			<array>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>meditation</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>meditation</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>meditation</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>start meditation using move with</string>
+								<string>start meditation using movies</string>
+								<string>start meditation using movewith</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>yoga</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>your car</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>yo ca</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>start yoga using move with</string>
+								<string>start your car using movewith</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>bootcamp</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>boot camp</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>book camp</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>start boot camp using movewith</string>
+								<string>start a boot camp using movewith</string>
+								<string>start boot camp using movies</string>
+								<string>start book camp using move with</string>
+								<string>start boot camp using more weeks</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>running</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>running</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>run ing</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>start running using movewith</string>
+								<string>start a running using movewith</string>
+								<string>start running using movies</string>
+								<string>start running using move with</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>cycling</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>running</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>start cycling using movewith</string>
+								<string>start a cycling using movewith</string>
+								<string>start cycling using movies</string>
+								<string>start cycling using move with</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentName</key>
+			<string>INStartPhotoPlaybackIntent.styleName</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Start a slideshow in ActionPhotosViewer</string>
+				<string>Use the Ruby Red style in ActionPhotosViewer to start a slideshow</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

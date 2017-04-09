@@ -14,8 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        self.userActivity = userActivity
+        if let workout = self.userActivity?.userInfo?["workoutName"] as? String {
+            print(workout)
+        }
+        
+        if let vc = window?.rootViewController as? WorkoutVC {
+            vc.userActivity = userActivity
+            vc.showData()
+        }
         return true
     }
 
